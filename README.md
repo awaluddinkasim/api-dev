@@ -53,3 +53,14 @@ php artisan migrate:fresh --seed
 php artisan serve
 ```
 
+---
+
+## API Endpoints
+
+API ini menyediakan beberapa endpoint untuk mengelola data users:
+
+- `GET /users`: Mendapatkan semua data users.
+- `GET /users/{uuid}`: Mendapatkan data user berdasarkan UUID.
+- `POST /users`: Menambahkan data user baru.
+- `PUT /users/{uuid}`: Mengubah data user berdasarkan UUID.
+- `DELETE /users/{uuid}`: Menghapus data user berdasarkan UUID.
